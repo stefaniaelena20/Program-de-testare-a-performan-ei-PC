@@ -1,42 +1,42 @@
-````markdown
 # 🖥️ PC Performance Benchmark
 
-A Python desktop application for testing and comparing the performance of a computer’s CPU and memory through a collection of synthetic benchmarks.
+A Python desktop application for testing a computer’s CPU and memory performance through a collection of synthetic benchmarks.
 
-The application features a simple graphical interface where you can run individual tests, review their results, and calculate an overall performance score.
+Run individual tests, view the results, and calculate a combined performance score using a simple graphical interface.
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white)
-![GUI](https://img.shields.io/badge/GUI-Tkinter-orange)
-![Project](https://img.shields.io/badge/Type-Performance%20Benchmark-purple)
+![Tkinter](https://img.shields.io/badge/GUI-Tkinter-orange)
+![Benchmark](https://img.shields.io/badge/Project-Performance%20Testing-purple)
 
 ## ✨ Features
 
 - 🧠 Displays processor and memory information
-- ⚡ Runs CPU, memory access, and memory transfer benchmarks
-- 🔢 Tests integer and floating-point calculations
+- ⚡ Tests CPU performance and memory access speed
+- 📦 Measures memory transfer performance
+- 🔢 Benchmarks integer and floating-point operations
 - 🌀 Measures performance with a Mandelbrot calculation
-- 📊 Calculates a score based on selected benchmark results
+- 📊 Calculates a combined score from selected test results
 - 🪟 Runs tests in the background to keep the interface responsive
-- 🔄 Lets you reset results and run the tests again
+- 🔄 Allows you to reset results and run the tests again
 
 ## 🧪 Available Tests
 
-| Test | What it measures |
+| Test | Description |
 |---|---|
-| CPU Information | Processor model, architecture, core count, and frequency |
-| Memory Information | Total, available, and used RAM |
-| Memory Access | Sequential and random memory access times |
-| Memory Transfer | Data copying speed for different block sizes |
-| Integer Operations | Integer addition and multiplication performance |
-| Floating-Point Operations | Floating-point addition and multiplication performance |
-| Mandelbrot Calculation | Time required to calculate a Mandelbrot set sample |
+| CPU Information | Displays processor model, architecture, cores, and frequency |
+| Memory Information | Shows total, available, and used RAM |
+| Memory Access | Compares sequential and random memory access |
+| Memory Transfer | Measures data copying speed for different block sizes |
+| Integer Operations | Tests integer addition and multiplication |
+| Floating-Point Operations | Tests floating-point addition and multiplication |
+| Mandelbrot Calculation | Measures the time needed to calculate a Mandelbrot set sample |
 
-## 🛠️ Built With
+## 🛠️ Technologies
 
 - **Python**
 - **Tkinter** — graphical user interface
 - **psutil** — system and memory information
-- **py-cpuinfo** — processor details
+- **py-cpuinfo** — processor information
 
 ## 🚀 Getting Started
 
@@ -70,16 +70,16 @@ python "bunbunssc (1).py"
 ## 📖 How to Use
 
 1. Start the application.
-2. Choose a test from the available buttons.
+2. Select a benchmark from the available test buttons.
 3. Review the result displayed in the application.
-4. Run the required benchmarks and select **Calculate Final Score** to see the combined result.
+4. Run the required tests and select **Calculate Final Score**.
 5. Select **Reset All Tests** to clear the results and start again.
 
-## 📊 About the Score
+## 📊 About the Results
 
-The final score compares selected benchmark results with reference values built into the application. Results can vary depending on your hardware, Python environment, system load, and other programs running in the background.
+The final score compares selected benchmark results with reference values included in the application. Results may vary depending on your computer’s hardware, system load, and other programs running in the background.
 
-## 📁 Project Files
+## 📁 Project Structure
 
 ```text
 Program-de-testare-a-performan-ei-PC/
@@ -87,13 +87,13 @@ Program-de-testare-a-performan-ei-PC/
 └── ssc_documentatie (2) (1).pdf
 ```
 
-## 🎓 What I Practiced
+## 🎓 What I Learned
 
-- Building a desktop application with Tkinter
+- Creating a desktop application with Tkinter
 - Collecting hardware and memory information
-- Measuring execution time for synthetic benchmarks
+- Measuring execution time for different operations
 - Running tasks on background threads
-- Presenting benchmark results in a graphical interface
+- Displaying benchmark results in a graphical interface
 
 ## 👩‍💻 Author
 
